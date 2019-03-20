@@ -1,0 +1,304 @@
+<!-- 入口 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><!--使得网页用webkit内核渲染 -->
+     <meta name="HandheldFriendly" content="true"> <!--针对不支持viewport的旧手机 -->
+    <meta name="author" content="pl">
+    <meta name="keywords" content="">
+    <link rel="icon" href="./img/wwlogo.png" type="image/x-icon" />
+    <title> 四川万网鑫成信息科技有限公司 </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="./assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="./assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="./css/component.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+
+
+    <!-- 兼容IE  -->
+    <!--[if lt IE 9]>
+          <link rel="stylesheet" type="text/css" href="./css/ie.css">
+          <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+          <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+    <script  type="text/javascript"  src="./js/bootstrap.min.js"></script>
+
+
+
+
+    
+  </head>
+
+  <body>
+      <!-- 吉祥物 -->
+      <a href="javascript:;">
+        <img src="./img/mascots/mascot1.gif" alt="万网吉祥物" class="mascot">
+      </a>
+      <!--header start-->
+      <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+          <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="javascript:;"><img src="img/ww.png" class="logo"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="../index.html">首页
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./aboutus.html">关于我们
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./company-news.html">企业新闻
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./solution.html">解决方案
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">产品服务 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="./hardware-products.html">硬件产品</a>
+                          </li>
+                          <li>
+                              <a href="./software-products.html">软件产品</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./technical-support.html">技术支持
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">系统登录 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="http://www.wwvas.com/" target="_blank">自主报单</a>
+                          </li>
+                          <li>
+                              <a href="http://gis.wwvas.com/module/login.html" target="_blank">在线查车</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <!--header end-->
+
+    <!-- Sequence Modern Slider -->
+    <div id="da-slider" class="home-slider other">
+            <img src="img/company-assets/banner.jpg" class="bei" style="width:100%;height: 100%">
+    </div>
+
+    
+    <!-- 企业新闻 -->
+    <div class="container">
+      <div class="row">
+        <h1 style="text-align: center;color: #16A8F7;">
+            企业新闻
+        </h1>
+        <i style="display: block;text-align: center;margin-bottom: 3%;font-style: normal;">Enterprise News</i>
+
+        <!-- 新闻 -->
+        <div class="col-md-12" id="newsdiv">
+        </div>
+  </div>
+</div>
+
+
+
+
+    <!--footer start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+            <h1>
+              联系我们
+            </h1>
+            <address>
+              <p><img src="img/people.png" alt="">客服热线 : 028-85315020 </p>
+              <p><img src="img/email.png" alt="">邮箱 : wanwang@cnzhjk.com</p>
+              <p><img src="img/address.png" alt="">地址 : 成都市高新区天府四街航兴国际广场2号楼18F</p>
+            </address>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+              <h1>
+               更多
+              </h1>
+              <ul class="page-footer-list">
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./aboutus.html">关于我们</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./company-news.html">企业新闻</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./solution.html">解决方案</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./hardware-products.html">产品服务</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./technical-support.html">技术支持</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
+              <p>
+                <img src="img/home-assets/erweima.png">
+              </p>
+              <p class="smallfont">关注“万网鑫成科技”<br>微信公众号</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="copyright"> <p>Copyright © 2017 四川万网鑫成信息科技有限公司 All Rights Reserved 蜀ICP备17035138号</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--small footer end-->
+
+
+
+    <!-- 详情 弹窗 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                &times;
+              </button>
+              <h4 class="modal-title" id="myModalLabel"><!-- 标题 -->
+                
+              </h4>
+            </div>
+            <div class="modal-body" id="detailsContent"><!-- 内容 -->
+              
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+      </div>
+
+    <!-- 引用JS -->
+    <!-- 动画 -->
+    <script src="./js/wow.min.js"></script>
+    <!-- 吉祥物 -->
+    <script src="./js/mascot.js"> </script>
+    <!--公用-->
+    <script src="./js/common-scripts.js"> </script>
+
+
+    <script>
+      $('a.info').tooltip();
+
+      new WOW().init();
+
+      // 新闻中心弹窗
+      function showDetail(content,title){
+          var contents = "",titles = "";
+          contents += "<div> " + content + " </div>";
+          $("#detailsContent").html(contents);
+
+          titles += "<h4>" + title + "</h4>";
+          $("#myModalLabel").html(titles);
+      }
+
+      // 处理时间
+      // function formatTime(val) {
+      //       if (val != null) {
+      //               var date = new Date(val);
+      //               return date.getFullYear() + '/' + (date.getMonth() + 1) + '/' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes();
+      //           }
+      // }
+
+    </script>
+
+
+    <!-- 判断ie浏览器 -->
+    <script type="text/javascript">
+      if(navigator.appName == "Microsoft Internet Explorer"&&parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE","")) < 8){
+          alert("您的浏览器版本过低，请下载IE8及以上版本，或更换浏览器！");
+          window.close();
+      }
+    </script>
+
+    <!-- 新闻接口 -->
+    <script type="text/javascript">
+      $(function(){
+         $.ajax({
+                  url: "http://222.212.141.38:8000/api/oa/zhNewsInfo",
+                  type: "get",
+                  dataType: "jsonp", //解决跨域
+                  data:{
+                    companyname:'万网'
+                  },
+                  success: function (data) {
+                      var html = "";
+                      for(var i=0;i<data.length;i++){    //遍历data数组
+                             var ls = data[i];
+                             html += "<div class='blog-left wow fadeInLeft'><div class='blog-img'> <img src='"+ls.img_url+"' /></div><div class='blog-content'> <h3>"+ls.title+"</h3><p>"+ls.digest+"</p><p style='color:#C9C9C9;'>"+ls.server_update_time+"</p></div><button class='btn btn-primary btnDetail' data='"+ls.content+"' title='"+ls.title+"' data-toggle='modal' data-target='#myModal'>"+'查看详情'+" </button></div>";
+                         }
+                         $("#newsdiv").html(html); //在html页面id=newsdiv的标签里显示html内容
+
+                         // 查看详情点击传参
+                         $("button.btnDetail").on("click",function(e){
+                                showDetail($(this).attr("data"),$(this).attr("title"));
+                         })
+                  },
+         })
+      });
+    </script>
+
+  </body>
+</html>

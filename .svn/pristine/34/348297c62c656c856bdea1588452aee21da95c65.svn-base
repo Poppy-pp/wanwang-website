@@ -1,0 +1,302 @@
+<!-- 入口 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"><!--针对手机端 -->
+    <meta name="HandheldFriendly" content="true"> <!--针对不支持viewport的旧手机 -->
+    <meta name="author" content="pl">
+    <meta name="keywords" content="Bootstrap 3, Template, Theme, Responsive, Corporate, Business">
+    <link rel="icon" href="./img/wwlogo.png" type="image/x-icon" />
+    <title>
+      四川万网鑫成信息科技有限公司
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="./assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="./assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="./css/component.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+
+    
+  </head>
+
+  <body>
+      <!-- 吉祥物 -->
+      <a href="javascript:;">
+        <img src="./img/mascots/mascot1.gif" alt="万网吉祥物" class="mascot">
+      </a>
+      <!--header start-->
+      <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+          <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="img/ww.png" class="logo"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="../index.html">首页
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./aboutus.html">关于我们
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./solution.html">解决方案
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">产品服务 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="./hardware-products.html">硬件产品</a>
+                          </li>
+                          <li>
+                              <a href="./software-products.html">软件产品</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./technical-support.html">技术支持
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle"  href="javascript:;">在线查车
+                      </a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <!--header end-->
+
+    <!-- Sequence Modern Slider -->
+    <div id="da-slider" class="home-slider other">
+            <img src="img/about-assets/banner.png" class="bei" style="width:100%;height: 100%">
+    </div>
+
+
+    <!--企业介绍-->
+    <div class="property white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 wow fadeInUp center">            
+            <h1>
+              企业介绍
+            </h1>
+            <i>Companies to introduce</i>
+            <img src="img/about-assets/qy.png" class="introImg">
+            <div class="col-lg-12 col-sm-12 wow fadeInUp center" data-wow-delay=".2s">
+              <h2>专注于汽车金融资产安全管理</h2>
+              <p>四川万网鑫成信息科技有限公司成立于2007年，是一家集软件研发、产品销售、客户服务于一体，专业从事汽车GNSS全球卫星定位的高科技车联网服务公司。本着“诚信、进取、责任”的企业精神，以“开放、合作、共赢”的经营理念紧跟时代步伐，用科学的管理方法不断提升产品、以满足市场与客户需求。通过不断开拓创新，以“第一时间满足客户需求”的服务理念，公司花巨资构建售后服务中心，让所有用户买得安心，用得舒心！并在体验科技便利的同时感受到公司无微不至的服务与关怀。公司用科学的管理、完善的技术、打造卓越的产品品质、全新的用户体验、周到的服务流程，致力于成为最专业的车联网位置服务商！</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--property end-->
+
+    
+    <!-- 企业新闻 -->
+    <div class="container">
+      <div class="row">
+        <h1 style="text-align: center;color: #16A8F7;">
+            企业新闻
+        </h1>
+        <i style="display: block;text-align: center;margin-bottom: 3%;font-style: normal;">Corporate news</i>
+
+        <!-- 左栏新闻 -->
+        <div class="col-md-6">
+          <!-- 新闻一 -->
+          <div class="blog-left wow fadeInLeft">
+            <div class="blog-img">
+              <img src="img/about-assets/news_img1.png" alt=""/>
+            </div>
+            <div class="blog-content">
+              <h3>
+                “万网”恢恢，疏而不漏
+              </h3>
+              <p>
+               年底了，想必大家都已经开始忙于各式各样的年终总结，填写各种报表。所谓几家欢喜几家愁。业绩好的，都等着晒自己的成果，想象着自己升值加薪，迎娶白富美，出任CEO...
+              </p>
+            </div>
+            <button class="btn btn-primary">
+              查看详情
+            </button>
+          </div>
+          <!-- 新闻二 -->
+          <div class="blog-left wow fadeInLeft">
+            <div class="blog-img">
+              <img src="img/about-assets/news_img2.png" alt=""/>
+            </div>
+            <div class="blog-content">
+              <h3>
+                加强战略合作 助力集团产业链转型升级
+              </h3>
+              <p>
+               为进一步加强工作交流，推动银企合作再上新台阶，2017年11月8日，工行贵州省分行副行长黄文晖、工行贵州省分行银行卡部总经理周静、工行贵州省瑞金北路支行行长张嵘等领导一行莅临集团总部进行考察指导工作。集团董事长伏勇全、副总裁唐涛、副总裁田文明、贵州公司总经理缪光亚等领导接待并陪同座谈。
+              </p>
+            </div>
+            <button class="btn btn-primary">
+              查看详情
+            </button>
+          </div>
+          </div>
+          <!-- 左栏新闻  end-->
+
+          <!-- 右栏新闻 -->
+          <div class="col-md-6">
+            <!-- 新闻一 -->
+            <div class="blog-right wow fadeInRight">
+              <div class="blog-img">
+                <img src="img/about-assets/news_img2.png" alt=""/>
+              </div>
+              <div class="blog-content">
+                <h3>
+                  集团万网公司组织员工畅游峨眉山
+                </h3>
+                <p>
+                  近日，集团万网公司为感谢大家在VAS、GIS、E车宝三大科技项目研发期间所作出的努力与贡献，在项目顺利上线后，组织公司信息科技部全体员工、各部门经理及总经办领导齐聚风景秀丽的峨眉山，开始了为期三天两夜的美好之旅。
+                </p>
+              </div>
+              <button class="btn btn-primary">
+                查看详情
+              </button>
+            </div>
+            <!-- 新闻二 -->
+             <div class="blog-right wow fadeInRight">
+              <div class="blog-img">
+                <img src="img/about-assets/news_img1.png" alt=""/>
+              </div>
+              <div class="blog-content">
+                <h3>
+                  万网公司VAS/GIS/E车宝项目表彰会圆满召开
+                </h3>
+                <p>
+                  2017年10月，由集团万网公司自主研发的VAS、GIS、E车宝，三大科技项目全面顺利上线！这是在以公司信息科技部同事为主力军、全体员工共同的参与下，为万网公司10周年华诞献上的一份大礼，也标志着万网汽车资产安全管理技术研发再上新台阶。
+                </p>
+              </div>
+              <button class="btn btn-primary">
+                查看详情
+              </button>
+            </div>
+          </div>
+          <!-- 右栏新闻 end -->
+
+    </div>
+  </div>
+
+
+
+
+    <!--footer start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+            <h1>
+              联系我们
+            </h1>
+            <address>
+              <p><i class="fa fa-home pr-10 fa-fw"></i>地址：成都高新区天府四街航兴国际2栋18楼</p>
+              <p><i class="fa fa-mobile pr-10 fa-fw"></i>联系方式 : 028-85315109 </p>
+              <p><i class="fa fa-phone pr-10 fa-fw"></i>客服 : 13882031918  24小时服务</p>
+              <p><i class="fa fa-envelope pr-10 fa-fw"></i>邮箱 :WWW.GPS@sina.cn</p>
+            </address>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+              <h1>
+               更多
+              </h1>
+              <ul class="page-footer-list">
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./aboutus.html">关于我们</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./solution.html">解决方案</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./hardware-products.html">产品服务</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./technical-support.html">技术支持</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="javascript:;">在线查车</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
+              <h1>
+                关注微信号
+              </h1>
+              <p>
+                <img src="img/home-assets/erweima.png">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="copyright"> <p>&copy;Copyright - <a href="javascript:;" target="_blank" title="">四川万网鑫成信息科技有限公司</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--small footer end-->
+
+    <!-- 引用JS -->
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- 动画 -->
+    <script src="./js/wow.min.js"></script>
+    <!-- 吉祥物 -->
+    <script src="./js/mascot.js"> </script>
+    <!--公用-->
+    <script src="./js/common-scripts.js"> </script>
+
+
+    <script>
+      $('a.info').tooltip();
+
+      new WOW().init();
+
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,371 @@
+<!-- 入口 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><!--使得网页用webkit内核渲染 -->
+     <meta name="HandheldFriendly" content="true"> <!--针对不支持viewport的旧手机 -->
+    <meta name="author" content="pl">
+    <meta name="keywords" content="">
+    <link rel="icon" href="./img/wwlogo.png" type="image/x-icon" />
+    <title> 四川万网鑫成信息科技有限公司 </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="./assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="./assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="./css/component.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+
+
+    <!-- 兼容IE  -->
+    <!--[if lt IE 9]>
+          <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+          <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+    <script  type="text/javascript"  src="./js/bootstrap.min.js"></script>
+
+    
+  </head>
+
+  <body>
+      <!-- 吉祥物 -->
+      <a href="javascript:;">
+        <img src="./img/mascots/mascot1.gif" alt="万网吉祥物" class="mascot">
+      </a>
+      <!--header start-->
+      <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+          <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="javascript:;"><img src="img/ww.png" class="logo"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="../index.html">首页
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./aboutus.html">关于我们
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./solution.html">解决方案
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">产品服务 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="./hardware-products.html">硬件产品</a>
+                          </li>
+                          <li>
+                              <a href="./software-products.html">软件产品</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./technical-support.html">技术支持
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">系统登录 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="http://www.wwvas.com/" target="_blank">自主报单</a>
+                          </li>
+                          <li>
+                              <a href="http://gis.wwvas.com/module/login.html" target="_blank">在线查车</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <!--header end-->
+
+    <!-- Sequence Modern Slider -->
+    <div id="da-slider" class="home-slider other">
+            <img src="img/about-assets/banner.png" class="bei" style="width:100%;height: 100%">
+    </div>
+
+
+    <!--企业介绍-->
+    <div class="property white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 wow fadeInUp center">            
+            <h1>
+              企业介绍
+            </h1>
+            <i>Enterprise Introduction</i>
+            <img src="img/about-assets/qy.png" class="introImg">
+            <div class="col-lg-12 col-sm-12 wow fadeInUp center" data-wow-delay=".2s">
+              <h2>专注于汽车金融资产安全管理</h2>
+              <p>四川万网鑫成信息科技有限公司成立于2007年，是一家立足成都，辐射全国，集研发、销售、服务、创新于一体，拥有自主核心技术，专业从事汽车资产安全管理的高新科技车联网服务企业。</p>
+              <p>我们本着“专业、效率、服务、创新”的核心价值观，以“创新、创业、成长”的用人理念聚集各类精英人才团队，形成了“高效、务实、合作”的企业文化，以“共创价值、共享成果、共同成长”的经营理念紧跟时代节拍开拓创新，以设备安装、服务为入口，以万网UCHE为载体，构建“产品+系统+服务+大数据”的智能化汽车资产安全管理平台，用精细化、精准化的服务标准，保障车辆安全的同时满足用户的多元化需求与个性化定制服务。</p>
+              <p>安全管理、用户体验、科技创新，做最有价值的汽车资产安全管理平台，我们一直在路上！</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--property end-->
+
+    
+    <!-- 企业新闻 -->
+    <div class="container">
+      <div class="row">
+        <h1 style="text-align: center;color: #16A8F7;">
+            企业新闻
+        </h1>
+        <i style="display: block;text-align: center;margin-bottom: 3%;font-style: normal;">Enterprise News</i>
+
+        <!-- 左栏新闻 -->
+        <div class="col-md-6">
+          <!-- 新闻一 -->
+          <div class="blog-left wow fadeInLeft">
+            <div class="blog-img">
+              <img src="img/about-assets/news_img1.jpg" alt=""/>
+            </div>
+            <div class="blog-content">
+              <h3>
+                万网科技教你如何降低车贷风险
+              </h3>
+              <p>
+               对于汽车金融公司来说，如何降低车抵贷款的风险非常重要。由于车辆抵押贷款具有贷款门槛低，可贷额度高及放款快的特点，从而吸引急需资金周转的广大用户。所以市场上出现很多汽车金融公司。
+              </p>
+            </div>
+            <button class="btn btn-primary">
+              查看详情
+            </button>
+          </div>
+          <!-- 新闻二 -->
+          <div class="blog-left wow fadeInLeft">
+            <div class="blog-img">
+              <img src="img/about-assets/news_img2.jpg" alt=""/>
+            </div>
+            <div class="blog-content">
+              <h3>
+                抵押车辆人车两空怎么办！万网GPS监控平台为您支招
+              </h3>
+              <p>
+               车贷经营模式分为抵押和质押两种，抵押是押本不押车方式，质押是押车方式。对于车贷企业来说，抵押的优点是客户体验好，放款额度大，市场规模较大，利率相对较高；缺点是违约风险大，违约后催收难度大。质押的优点是风险小，违约后处置简单；缺点是客户体验相对低，放款额度相对小，市场规模小，利率相对较低。
+              </p>
+            </div>
+            <button class="btn btn-primary">
+              查看详情
+            </button>
+          </div>
+          </div>
+          <!-- 左栏新闻  end-->
+
+          <!-- 右栏新闻 -->
+          <div class="col-md-6">
+            <!-- 新闻三-->
+            <div class="blog-right wow fadeInRight">
+              <div class="blog-img">
+                <img src="img/about-assets/news_img3.jpg" alt=""/>
+              </div>
+              <div class="blog-content">
+                <h3>
+                  这里有你想知道的GPS定位不准的解决办法
+                </h3>
+                <p>
+                  GPS卫星定位是通过确定与卫星的相对位置来定位，并且至少需要搜到4颗卫星才能定位。你也可以用wifi定位、基站定位等五花八门的辅助定位手段。
+                </p>
+              </div>
+              <button class="btn btn-primary">
+                查看详情
+              </button>
+            </div>
+            <!-- 新闻四 -->
+             <div class="blog-right wow fadeInRight">
+              <div class="blog-img">
+                <img src="img/about-assets/news_img4.jpg" alt=""/>
+              </div>
+              <div class="blog-content">
+                <h3>
+                  iPhone X的黑科技 原来这里都有
+                </h3>
+                <p>
+                  终于等到你，还好我没放弃...苹果出招了！号称是科技界春晚的苹果发布会如期而至，此次共发布了3款iPhone手机，命名也与之前曝光的信息相符，分别为iPhone X、iPhone 8和iPhone 8 Plus。
+                </p>
+              </div>
+              <button class="btn btn-primary">
+                查看详情
+              </button>
+            </div>
+          </div>
+          <!-- 右栏新闻 end -->
+
+          <!-- 左栏新闻 -->
+        <div class="col-md-6">
+          <!-- 新闻五 -->
+          <div class="blog-left wow fadeInLeft">
+            <div class="blog-img">
+              <img src="img/about-assets/news_img5.jpg" alt=""/>
+            </div>
+            <div class="blog-content">
+              <h3>
+                保障爱车安全 你需要万网GPS
+              </h3>
+              <p>
+               如今随着有车一族的队伍越来越壮大，因此汽车GPS定位的市场正在逐步升温，市面上流通的追踪定位产品也是形形色色，目前众多厂家都是将重心放“低价”上，而“万网鑫成”GPS定位器从客户体验及平台优化上，做出了不俗的成绩。
+              </p>
+            </div>
+            <button class="btn btn-primary">
+              查看详情
+            </button>
+          </div>
+          
+          </div>
+          <!-- 左栏新闻  end-->
+
+          <!-- 右栏新闻 -->
+          <div class="col-md-6">
+            <!-- 新闻六 -->
+            <!-- <div class="blog-left wow fadeInLeft">
+              <div class="blog-img">
+                <img src="img/about-assets/news_img2.jpg" alt=""/>
+              </div>
+              <div class="blog-content">
+                <h3>
+                  抵押车辆人车两空怎么办！万网GPS监控平台为您支招
+                </h3>
+                <p>
+                 车贷经营模式分为抵押和质押两种，抵押是押本不押车方式，质押是押车方式。对于车贷企业来说，抵押的优点是客户体验好，放款额度大，市场规模较大，利率相对较高；缺点是违约风险大，违约后催收难度大。质押的优点是风险小，违约后处置简单；缺点是客户体验相对低，放款额度相对小，市场规模小，利率相对较低。
+                </p>
+              </div>
+              <button class="btn btn-primary">
+                查看详情
+              </button>
+            </div> -->
+          </div>
+          <!-- 右栏新闻 end -->
+
+    </div>
+  </div>
+
+
+
+
+    <!--footer start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+            <h1>
+              联系我们
+            </h1>
+            <address>
+              <p><img src="img/people.png" alt="">客服热线 : 028-85315020 </p>
+              <p><img src="img/email.png" alt="">邮箱 : wanwang@cnzhjk.com</p>
+              <p><img src="img/address.png" alt="">地址 : 成都市高新区天府四街航兴国际广场2号楼18F</p>
+            </address>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+              <h1>
+               更多
+              </h1>
+              <ul class="page-footer-list">
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./aboutus.html">关于我们</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./solution.html">解决方案</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./hardware-products.html">产品服务</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./technical-support.html">技术支持</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
+              <p>
+                <img src="img/home-assets/erweima.png">
+              </p>
+              <p class="smallfont">关注“万网鑫成科技”<br>微信公众号</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="copyright"> <p>Copyright © 2017 四川万网鑫成信息科技有限公司 All Rights Reserved 蜀ICP备17035138号</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--small footer end-->
+
+    <!-- 引用JS -->
+    <!-- 动画 -->
+    <script src="./js/wow.min.js"></script>
+    <!-- 吉祥物 -->
+    <script src="./js/mascot.js"> </script>
+    <!--公用-->
+    <script src="./js/common-scripts.js"> </script>
+
+
+    <script>
+      $('a.info').tooltip();
+
+      new WOW().init();
+
+    </script>
+
+
+    <!-- 判断ie浏览器 -->
+    <!-- <script type="text/javascript">
+      if(!!window.ActiveXObject || "ActiveXObject" in window){//true为IE
+        alert("IE浏览器正在维护中，建议使用谷歌浏览器");
+
+        //关闭ie6/ie7的关闭窗口确认提示框
+        window.opener=null;
+        window.open("","_self");
+
+        // 关闭ie浏览器
+        window.close();
+      };
+    </script> -->
+
+  </body>
+</html>

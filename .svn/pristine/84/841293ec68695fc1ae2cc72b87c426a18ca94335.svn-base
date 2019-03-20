@@ -1,0 +1,242 @@
+<!-- 入口 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"><!--针对手机端 -->
+    <meta name="author" content="pl">
+    <meta name="keywords" content="Bootstrap 3, Template, Theme, Responsive, Corporate, Business">
+    <link rel="icon" href="./img/wwlogo.png" type="image/x-icon" />
+    <title>
+      四川万网鑫成信息科技有限公司
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="./assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="./assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="./css/component.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+
+    
+  </head>
+
+  <body>
+      <!-- 吉祥物 -->
+      <a href="javascript:;">
+        <img src="./img/mascots/mascot1.gif" alt="万网吉祥物" class="mascot">
+      </a>
+      <!--header start-->
+      <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+          <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="img/ww.png" class="logo"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="../index.html">首页
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./aboutus.html">关于我们
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./solution.html">解决方案
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">产品服务 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="./hardware-products.html">硬件产品</a>
+                          </li>
+                          <li>
+                              <a href="./software-products.html">软件产品</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./technical-support.html">技术支持
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle"  href="javascript:;">在线查车
+                      </a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <!--header end-->
+
+    <!-- Sequence Modern Slider -->
+    <div id="da-slider" class="home-slider other">
+            <img src="img/solution-assets/banner.png" class="bei" style="width:100%;height: 100%;">
+    </div>
+
+
+    <!--业务痛点-->
+    <div class="property white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 wow fadeInUp center p-center">
+            <h1>
+              业务痛点
+            </h1>
+            <i>Business pain points</i>
+            <img src="img/solution-assets/yw.png" class="introImg">
+            <div class="col-lg-12 col-sm-12 wow fadeInUp center" data-wow-delay=".2s">
+              <p>多平台多店铺多仓经营，订单管理、分配困难；</p>
+              <p>采购频繁，订购量不准；</p>
+              <p>产品SUK多，条码设置困难，拣货发货效率低下； </p>
+              <p>难以应对大促活动，订单暴增，无法正常发货； </p>
+              <p>众筹、预售、无货订单商品拆分困难，严重影响效率； </p>
+              <p>库存管控难，无法精准同步至平台，造成库存不准，超卖经常发生； </p>
+              <p>促销活动，赠品策略不同，订单难以自动匹配相应赠品。 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--property end-->
+
+    
+    <!-- 解决方案 -->
+    <div class="container">
+        <div class="row wow bounceInLeft">
+          <h1 style="text-align: center;color: #16A8F7;">
+            解决方案
+          </h1>
+          <i style="display: block;text-align: center;margin-bottom: 3%;font-style: normal;">Solutions</i>
+          <div class="col-lg-4 col-sm-4 solution left" data-wow-duration="2s" data-wow-delay=".1s">
+            <img src="img/solution-assets/img_1.png">
+            <h2>行车轨迹</h2>
+            <p>可根据时间查询指定车辆的历史行驶轨迹</p>
+          </div>
+          <div class="col-lg-4 col-sm-4 solution middle" data-wow-duration="2s" data-wow-delay=".5s"">
+            <img src="img/solution-assets/img_2.png">
+            <h2>物流调度</h2>
+            <p>随时掌握每辆车的状态，物流企业的运作水平和车辆监控的能力得到提升</p>
+          </div>
+          <div class="col-lg-4 col-sm-4 solution" data-wow-duration="2s" data-wow-delay=".7s"">
+            <img src="img/solution-assets/img_3.png">
+            <h2>传送数据</h2>
+            <p>多种地图切换显示车辆实时运行状态和卫星定位，实现车辆跟踪</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <!--footer start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+            <h1>
+              联系我们
+            </h1>
+            <address>
+              <p><i class="fa fa-home pr-10 fa-fw"></i>地址：成都高新区天府四街航兴国际2栋18楼</p>
+              <p><i class="fa fa-mobile pr-10 fa-fw"></i>联系方式 : 028-85315109 </p>
+              <p><i class="fa fa-phone pr-10 fa-fw"></i>客服 : 13882031918  24小时服务</p>
+              <p><i class="fa fa-envelope pr-10 fa-fw"></i>邮箱 :WWW.GPS@sina.cn</p>
+            </address>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+              <h1>
+                更多
+              </h1>
+              <ul class="page-footer-list">
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./aboutus.html">关于我们</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./solution.html">解决方案</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./hardware-products.html">产品服务</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./technical-support.html">技术支持</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="javascript:;">在线查车</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
+              <h1>
+                关注微信号
+              </h1>
+              <p>
+                <img src="img/home-assets/erweima.png">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="copyright"> <p>&copy;Copyright - <a href="javascript:;" target="_blank" title="">四川万网鑫成信息科技有限公司</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--small footer end-->
+
+ <!-- 引用JS -->
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- 动画 -->
+    <script src="./js/wow.min.js"></script>
+    <!-- 吉祥物 -->
+    <script src="./js/mascot.js"> </script>
+    <!--公用-->
+    <script src="./js/common-scripts.js"> </script>
+
+
+    <script>
+      $('a.info').tooltip();
+
+      new WOW().init();
+
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,356 @@
+<!-- 入口 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"><!--针对手机端 -->
+    <meta name="author" content="pl">
+    <meta name="keywords" content="Bootstrap 3, Template, Theme, Responsive, Corporate, Business">
+    <link rel="icon" href="./img/wwlogo.png" type="image/x-icon" />
+    <title>
+      四川万网鑫成信息科技有限公司
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="./assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/flexslider.css"/>
+    <link href="./assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.css">
+
+    <link href="./css/superfish.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <!-- 字体图标 -->
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css">
+
+     <!-- 轮播支持 -->
+    <link rel="stylesheet" type="text/css" href="./css/parallax-slider/parallax-slider.css" />
+    <script type="text/javascript" src="./js/parallax-slider/modernizr.custom.28468.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="./css/component.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+
+    
+  </head>
+
+  <body>
+  	<script type="text/javascript" src="./build/bundle.js"></script> <!--引入打包js-->
+      <!--header start-->
+      <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+          <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="img/ww.png" class="logo"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="../index.html">首页
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./aboutus.html">关于我们
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./solution.html">解决方案
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">产品服务 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="./hardware-products.html">硬件产品</a>
+                          </li>
+                          <li>
+                              <a href="./software-products.html">软件产品</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./technical-support.html">技术支持
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle"  href="">在线查车
+                      </a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <!--header end-->
+
+    <!-- Sequence Modern Slider -->
+    <div id="da-slider" class="home-slider other">
+            <img src="img/service-assets/banner.png" class="bei" style="width:100%;height: 100%;">
+    </div>
+
+
+    <!-- 统计数字 -->
+    <div class="feature-box">
+      <div class="details">
+            <div class="col-md-3 col-sm-3 text-center wow fadeInUp"></div>
+            <div class="col-md-3 col-sm-3 text-center wow fadeInUp">
+               <div class="count1"></div>
+                <h4>
+                  <b>已安装设备</b>
+                </h4>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center wow fadeInUp">
+                <div class="count2"></div>
+                <h4>
+                  <b>平台接入车辆</b>
+                </h4>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center wow fadeInUp"></div>
+      </div>
+    </div>
+
+
+    <!--硬件产品-->
+    <div class="property white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 wow fadeInLeft center">
+            <h1>
+              软件产品
+            </h1>
+            <i>Software products</i>
+            <div class="col-md-6 col-sm-6 wow fadeInLeft circle">
+              <i class="iconfont icon-dingwei"></i>
+              <h3>APP</h3>
+              <p>具有超长待机能力的便捷定位终端，造型大方</p>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeInLeft circle" style="background-color: #fff;">
+              <i class="iconfont icon-dingwei"></i>
+              <h3>WEB</h3>
+              <p>具有超长待机能力的便捷定位终端，造型大方</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--硬件产品 end-->
+
+
+
+    <!--硬件产品-->
+    <div class="property white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 center border">
+            <div class="col-md-6 col-sm-6 wow fadeInLeft prods">
+              <h2>我们的产品</h2>
+              <p>万网鑫成信息科技有限公司为了更好的服务客户，分别开发了“万网优车”、“安逸途”、“E车宝”等一系列产品。</p>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeInRight prodsimg">
+              <img src="img/service-assets/img8.jpg">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 center border">
+            <div class="col-md-6 col-sm-6 wow fadeInLeft prodsimg">
+              <img src="img/service-assets/img13.jpg">
+            </div>
+             <div class="col-md-6 col-sm-6 wow fadeInRight prods">
+              <h2>万网优车</h2>
+              <p>万网鑫成信息科技有限公司为了更好的服务客户，分别开发了“万网优车”、“安逸途”、“E车宝”等一系列产品。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--硬件产品 end-->
+
+    
+    
+
+        </div>
+      </div>
+
+
+
+
+    <!--footer start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+            <h1>
+              联系我们
+            </h1>
+            <address>
+              <p><i class="fa fa-home pr-10"></i>地址：成都高新区天府四街航兴国际2栋18楼</p>
+              <p><i class="fa fa-globe pr-10"></i>国家：中国 </p>
+              <p><i class="fa fa-mobile pr-10"></i>联系方式 : 028-85315109 </p>
+              <p><i class="fa fa-phone pr-10"></i>客服 : 13882031918  24小时服务</p>
+              <p><i class="fa fa-envelope pr-10"></i>邮箱 :WWW.GPS@sina.cn</p>
+            </address>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+              <h1>
+                更多
+              </h1>
+              <ul class="page-footer-list">
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./aboutus.html">关于我们</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./solution.html">解决方案</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./hardware-products.html">产品服务</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./technical-support.html">技术支持</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="javascript:;">在线查车</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
+              <h1>
+                关注微信号
+              </h1>
+              <p>
+                <img src="img/home-assets/erweima.png">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="copyright"> <p>&copy; Copyright - <a href="" target="_blank" title="">四川万网鑫成信息科技有限公司</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--small footer end-->
+
+    <script src="./js/jquery-1.8.3.min.js">
+    </script>
+    <script src="./js/bootstrap.min.js">
+    </script>
+    <script type="text/javascript" src="./js/hover-dropdown.js">
+    </script>
+    <script defer src="./js/jquery.flexslider.js">
+    </script>
+    <script type="text/javascript" src="./assets/bxslider/jquery.bxslider.js">
+    </script>
+
+    <script type="text/javascript" src="./js/jquery.parallax-1.1.3.js">
+    </script>
+    <script src="./js/wow.min.js">
+    </script>
+    <script src="./assets/owlcarousel/owl.carousel.js">
+    </script>
+
+    <script src="./js/jquery.easing.min.js">
+    </script>
+    <script src="./js/link-hover.js">
+    </script>
+    <script src="./js/superfish.js">
+    </script>
+    <script type="text/javascript" src="./js/parallax-slider/jquery.cslider.js">
+    </script>
+
+    <script type="text/javascript">
+      $(function() {
+
+        $('#da-slider').cslider({
+          autoplay    : true,
+          bgincrement : 100
+        });
+
+      });
+    </script>
+
+    
+
+    <!--common script for all pages-->
+    <script src="./js/common-scripts.js">
+    </script>
+
+
+    <script>
+      $('a.info').tooltip();
+
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider) {
+            $('body').removeClass('loading');
+          }
+        });
+      });
+
+      $(document).ready(function() {
+
+        $("#owl-demo").owlCarousel({
+
+          items : 4
+
+        });
+
+      });
+
+      jQuery(document).ready(function(){
+        jQuery('ul.superfish').superfish();
+      });
+
+      new WOW().init();
+
+      
+
+    </script>
+
+    <!-- 滚动数字 -->
+    <script src="./js/count.js" ></script>
+    <script type="text/javascript">
+      $(".count1").numberRock({
+        speed:150,
+        count:217796
+      });
+      $(".count2").numberRock({
+        speed:150,
+        count:75781
+      })
+    </script>
+
+
+  </body>
+</html>

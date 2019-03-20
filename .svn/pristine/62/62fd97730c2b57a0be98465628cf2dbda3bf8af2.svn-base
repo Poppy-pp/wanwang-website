@@ -1,0 +1,1082 @@
+@media (min-width: 768px) and (max-width: 980px) {
+    .col-4 .item {
+        width: 47%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+}
+/*兼容 ipad */
+@media (max-width: 768px) {
+
+
+    .navbar-toggle {
+        margin-top: 12px;
+    }
+
+    .head-section .navbar-collapse  ul.navbar-nav {
+        float: none;
+        margin-left: 0;
+        padding: 0 12%;
+    }
+
+    .head-section .nav li a:hover,
+    .head-section .nav li a:focus,
+    .head-section .nav li a.dropdown-toggle:focus,
+    .head-section .nav li a.dropdown-toggle .dropdown-menu li a:hover,
+    .head-section .nav li.active a,
+    .head-section .dropdown-menu li a:hover {
+        color: #fff !important;
+    }
+
+    .head-section .navbar-nav > li {
+        padding: 0;
+        margin-bottom: 2px;
+    }
+
+    .head-section .nav li ul.dropdown-menu li a {
+        margin-left: 0px;
+        color: #999!important; ;
+    }
+
+    .head-section .nav li .dropdown-menu li a:hover, .head-section .nav li .dropdown-menu li.active a {
+        color: #16A8F7 !important;
+    }
+
+    .purchase-btn, .about-testimonial {
+        margin-top: 10px;
+    }
+
+    .breadcrumb.pull-right{
+        padding: 0;
+    }
+
+    .search, .bx-controls-direction {
+        display: none;
+    }
+
+    .tweet-box {
+        margin-bottom: 20px;
+    }
+
+    // .property img {
+    //     width: 80%;
+    // }
+
+    .bx-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .purchase-btn, .about-testimonial {
+        margin-top: 0;
+    }
+
+    .purchase-btn {
+        line-height: 98px;
+    }
+
+    .social-link-footer li a {
+        font-size: 16px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .navbar-header {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .navbar-brand {
+        float: none;
+
+    }
+
+    .carousel-control {
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .btn, .form-control {
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+    .head-section .navbar {
+        min-height: 60px;
+    }
+
+    .navbar-toggle {
+        margin-right: -10px;
+    }
+
+    .head-section .nav li .dropdown-menu li a:hover {
+        color: #48C9B0 !important;
+    }
+
+    .navbar-brand {
+        margin-top: 10px !important;
+        float: left !important;
+    }
+
+    .col-4 .item {
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    .breadcrumb.pull-right{
+        float: left !important;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .carousel-control {
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width:320px) {
+
+
+}
+
+
+
+@media (max-width: 900px) {
+    /*Slider Sequence*/
+    #sequence-theme .info {
+        top:80px !important;
+        width:60% !important;
+        margin-right:50px;
+    }
+
+    /*Slider Parallax*/
+    .da-slide .da-img {
+        display:none;
+    }
+}
+
+@media (max-width: 450px) {
+    /*Slider Sequence*/
+    #sequence-theme .info {
+        top:70px !important;
+        width:70% !important;
+        margin-right:25px;
+    }
+    #sequence-theme h2 {
+        font-size:30px !important;
+    }
+    #sequence-theme .info p {
+        font-size:18px !important;
+    }
+
+    /*Slider Parallax*/
+    .da-slide p {
+        display:none;
+    }
+}
+
+
+/*write by pl*/
+@media screen and (max-width:1480px){
+    .other{/*banner图片【除首页外】*/
+        height: 800px;
+    }
+    .font-one p{
+        font-size: 1.5rem;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width:1280px){
+     .other{
+         height: 700px;
+     }
+    .property .icon i{
+        font-size: 3rem;
+    }
+    .property .icon i span {
+        font-size: 1rem;
+    }
+    .img-slider .ip_img {
+        width: 70%;
+        top: 35%;
+    }
+    .phone h4{/*技术支持*/
+        font-size: 3rem;
+    }
+    .phone span {
+        font-size: 2rem;
+    }
+    .roundabout-moveable-item{/*首页——轮播图片*/
+        transform: scale(0.9);
+    }
+    .property .icon i span {/*首页——企业优势*/
+        left: 24%;
+    }
+    .property .icon i{/*首页——企业优势*/
+        padding: 0 12%;
+    }
+}
+@media screen and (max-width:1200px){/*解决方案*/
+    .solution{/*解决方案——解决方案*/
+        height: 500px;
+    }
+    .middle{
+        height: 580px;
+    }
+    .property .circle{
+        height: 100%;
+    }
+    .property .center .prods h2{
+        font-size: 3rem;
+        margin: 1% 0 2% 0;
+    }
+    .property .center .prods{
+        padding: 2%;
+    }
+    .bgimg{/*首页——合作伙伴*/
+        height: 400px;
+    }
+    .roundabout-moveable-item{/*首页——轮播图片*/
+        transform: scale(0.8);
+    }
+    .font-one{
+        margin-top: 8%;
+    }
+    .bxslider2{/*首页——合作伙伴隐藏一行*/
+        display: none;
+    }
+    // .bgimg .outside p{
+    //     display: block;/*首页——合作伙伴显示按钮*/
+    // }
+    .partnerp{
+        font-size: 2rem;
+        margin-top: 1%;
+    }
+    .partner{
+        height: auto;
+    }
+    .tabs li{
+        height: auto;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:980px){
+    .font-one{
+        margin:3% 0 0 0;
+    }
+    .roundabout-moveable-item{/*首页——轮播图片*/
+        transform: scale(0.7);
+    }
+    .roundabout-holder{
+        width: 350px;
+    }
+    .font-one p{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .property .icon i span{
+        left: 13%;
+    }
+    .img-slider .ip_img {
+        width: 60%;
+        top: 58%;
+    }
+    .other{
+         height: 550px;
+     }
+    .solution{/*解决方案*/
+        height: 430px;
+    }
+    .middle{
+        height: 490px;
+    }
+    .solution p{
+        line-height: 24px;
+    }
+    .property .circle{/*产品服务*/
+        height: 350px;
+    }
+    .property .circle i {
+        font-size: 5rem;
+    }
+    .property .circle h3{
+        font-size: 20px;
+    }
+    .property .circle p{
+        font-size: 12px;
+        text-indent: 0;
+        line-height: 24px;
+    }
+    .property .center .prods h2 {
+        font-size: 2rem;
+    }
+    .property .center .prods p {
+        font-size: 1.5rem;
+        line-height: 18px;
+    }
+    .property .icon i {
+        padding: 0 11%;
+    }
+    .home-slider #tagbox a {/*首页——悬浮字体*/
+        font-size: 30px !important;
+    }
+    .page-footer {/*页脚——更多*/
+        padding-left: 0px !important;
+    }
+    .property .center .prods img.small, .property .center .prods img.small3, .property .center .prods img.small5{/*硬件产品——小图片*/
+        width: 200px;
+        height: 100px;
+    }
+    .property .center .prods img.small2, .property .center .prods img.small4{
+        transform:scale(0.7);
+    }
+    .property .center .prods img.small2 {
+        margin: 10% 0 0 0;
+    }
+    .tabs li {
+        font-size: 1.4rem !important;
+    }
+    .tab_container .tab_content .tabcontent .codeimg {
+        width: 29%;
+    }
+}
+@media screen and (max-width:810px){/*微信浏览器*/
+    .font-one h1{
+        font-size: 2.5rem;
+    }
+    .roundabout-moveable-item{/*首页——轮播图片*/
+        transform: scale(0.5) !important;
+    }
+    .roundabout-holder{
+        width: 300px !important;
+    }
+    .property .icon i {
+        padding: 0 11%;
+    }
+    .tabs li {
+        font-size: 1.3rem  !important;
+    }
+    .tab_container .tab_content .tabcontent .codeimg {
+        width: 35%;
+    }
+    .home-slider #tagbox a {/*首页——悬浮字体*/
+        font-size: 28px !important;
+    }
+    .img-slider .ip_img {
+        top: 65%  !important;
+    }
+}
+
+/*兼容 ipad pro*/
+@media screen and (max-width:1024px){
+    .navbar-header .logo {
+            width: 130px;
+            margin-top: 10%;
+    }
+    .img-slider .ip_img {
+        width: 60%;
+        top: 55%;
+    }
+    .font-one{
+        margin-top: 10%;
+    }
+    #LoopDiv span{
+        font-size: 2rem;
+    }
+    #LoopDiv span i{
+        font-size: 2rem;
+    }
+    .other {
+        height: 570px;
+    }
+    .blog-content h3 {
+        font-size: 2rem;
+    }
+    .phone h4{/*技术支持*/
+        font-size: 2.5rem;
+    }
+    .phone span {
+        font-size: 1.5rem;
+    }
+    .roundabout-moveable-item{/*首页——轮播图片*/
+        transform: scale(0.6);
+    }
+    .roundabout-holder{
+        width: 350px;
+    }
+    .page-footer {/*首页——脚部——更多*/
+        padding-left: 50px;
+    }
+    .property .center .prods ul {/*产品服务——硬件——ul*/
+        margin: 0 4% 0 5%;
+    }
+    .tab_container .tab_content .tabcontent .font h2{/*产品服务——软件——字体*/
+        font-size: 24px;
+    }
+    .tab_container .tab_content .tabcontent .font p {
+        font-size: 1.5rem;
+        line-height: 20px;
+    }
+    .tabs li{
+        font-size: 1.5rem;
+    }
+    .mascot {/*吉祥物*/
+        width: 15%;
+    }
+}
+/*兼容 ipad || ipad mini*/
+@media screen and (max-width:768px){
+    .home-slider{
+        height: 500px;
+    }
+    .navbar-header .logo {
+        width: 100px;
+        margin-top: 0;
+    }
+    .img-slider .ip_img {
+        width: 60%;
+        top: 49%;
+    }
+    .font-one{
+        margin: 0 auto;
+        position: relative;
+        width: 40%;
+    }
+    #LoopDiv{
+        margin: 0;
+    }
+    .font-one h1 {
+        font-size: 3.5rem;
+    }
+    .roundabout-moveable-item{/*首页——轮播图片*/
+        transform: scale(0.5) !important;
+    }
+    .roundabout-holder{
+        width: 400px;
+    }
+    .property .icon i span {
+        left: 13%;
+    }
+    .other {
+        height: 450px;
+    }
+    .property .center p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .solution{/*解决方案*/
+        width: 80%;
+        height: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .solution:hover{
+        transform: scale(1.05) translateX(-47%); 
+        transition: all 1s ease;
+    }
+    .left{
+        margin-left: 0;
+    }
+    .property .circle i {/*产品服务*/
+        font-size: 6rem;
+    }
+    .property .circle h3{
+        font-size: 24px;
+    }
+    .property .circle p{
+        font-size: 14px;
+    }
+    .property .center .prods h2 {
+        font-size: 2rem;
+    }
+    .property .center .prods p {
+        font-size: 1.5rem;
+        line-height: 18px;
+        text-indent: 2rem;
+    }
+    .count1, .count2{
+        font-size: 4rem;
+    }
+    .details h4{
+        font-size: 14px;
+    }
+    .property .center .prodsimg img:hover{
+        opacity: 0.7;
+        transform: scale(1);
+    }
+    .phone h4{/*技术支持*/
+        font-size: 2rem;
+    }
+    .phone span {
+        font-size: 1rem;
+    }
+    .bgimg{/*首页——合作伙伴*/
+        height: 350px;
+    }
+    .property .icon i span {/*首页——企业优势*/
+        left: 17%;
+    }
+    .property .icon i{/*首页——企业优势*/
+        padding: 0 11%;
+    }
+    .page-footer {/*首页——脚部——更多*/
+        padding-left: 20px;
+    }
+    .property .center .prods img {/*产品服务——硬件——图片*/
+        transform: scale(0.5);
+    }
+    .property .center .prods img.small{
+        transform: rotate(12deg) scale(0.6);
+    }
+    .property .center .prods img.small2{
+        margin-left: -25%;
+    }
+    .property .center .prods img.small3,.property .center .prods img.small4,.property .center .prods img.small5{
+        margin-left: -20%;
+    }
+    .property .center .prods ul li {
+        line-height: 22px;
+    }
+    .tab_container .tab_content .tabcontent .font h2{/*产品服务——软件——字体*/
+        font-size: 20px;
+    }
+    .tab_container .tab_content .tabcontent .font p {
+        font-size: 1.3rem;
+        line-height: 16px;
+    }
+    .tabs li{
+        font-size: 1.3rem;
+    }
+    .support .col-sm-7,.support .col-lg-7{/*技术支持——图片——隐藏*/
+        display: none;
+    }
+    .support .top {
+        padding: 0;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .tab_container .tab_content .tabcontent .codeimg{/*产品服务——软件产品——二维码*/
+        width: 32%;
+    }
+    .tab_container .tab_content .tabcontent i{
+        font-size: 12px;
+    }
+}
+/*兼容 iphone6 plus || Nexus6p || Nexus5X*/
+@media screen and (max-width:414px){
+    .home-slider{
+        height: 250px;
+    }
+    .img-slider .ip_img {
+        width: 50%;
+        top: 54%;
+    }
+    .home-slider #tagbox a{
+        font-size: 16px !important;
+        padding: 0 6px;
+    }
+    .font-one{
+        width: 100%;
+        margin-top: 0;
+        top: -20%;
+        padding: 0 25px;
+    }
+    .font-one button{
+        width: 90px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .font-one p{
+        margin-top: 1%;
+    }
+    .recent h3{
+        font-size: 2rem;
+    }
+    // #LoopDiv span,#LoopDiv span i{
+    //    display: none;
+    // }
+    .property .center p{
+        font-size: 13px;
+    }
+    .property {
+        padding: 30px 0;
+        margin-bottom: 20px;
+    }
+    .property h1,.bounceInLeft h1,.recent h1, .font-one h1,.our-clients h1{/*大标题*/
+        font-size: 3rem;
+    }
+    .property .center p{
+        line-height: 20px;
+    }
+    .solution h2, .solution p {
+        margin: 5% 10%;
+    }
+    .count1, .count2{/*产品服务*/
+        font-size: 2.5rem;
+    }
+    .details h4 {
+        font-size: 12px;
+    }
+    .phone h4{/*技术支持*/
+        font-size: 1rem;
+    }
+    .phone img {
+        width: 80%;
+    }
+    .bgimg{/*首页——合作伙伴*/
+        height: 250px;
+    }
+    .roundabout-holder {
+        width: 250px !important;
+    }
+    .page-footer {/*首页——脚部——更多*/
+        padding:0 !important;
+    }
+    .property .center h2 {
+        font-size: 2rem;
+    }
+    .property .center .prods,.property .center .prods h2 {/*产品服务——硬件*/
+        text-align: center;
+    }
+    .property .border{
+        border: 1px solid #ddd;
+        padding: 5%;
+        margin: 2%;
+    }
+    .property .center .prods img.small,.property .center .prods img.small3,.property .center .prods img.small4,.property .center .prods img.small5{
+            margin: 0 auto;
+    }
+    .property .center .prods ul {
+        margin: 0 3% 0 5%;
+    }
+    .details div.count1{
+        border-right: none;
+    }
+    .tabs li{/*产品服务——软件——字体*/
+        margin-bottom: 10%;
+        font-size: 1.5rem;
+    }
+    .tab_container .tab_content .tabcontent .font p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .tab_container .tab_content .tabcontent .font h2 {
+        font-size: 15px;
+    }
+    .tab_container .tab_content .tabcontent .font{
+        width: 50%;
+    }
+    .support .top{/*技术支持*/
+        width: 80%;
+    }
+    .tab_container .tab_content .tabcontent .codeimg{/*产品服务——软件产品——二维码*/
+        display: none;
+    }
+    .mascot {/*吉祥物*/
+        width: 20%;
+    }
+    .details{/*产品服务——阴影线*/
+        border-bottom: none;
+    }
+    .partnerp {
+        font-size: 1.5rem;
+    }
+}
+/*兼容Nexus6p || Nexus5X*/
+@media screen and (max-width:412px){
+    .tab_container .tab_content .tabcontent .font h2 {/*产品服务——软件——字体*/
+        font-size: 14px;
+    }
+}
+/*兼容 iphone6 */
+@media screen and (max-width:375px){
+    .property h1,.bounceInLeft h1,.recent h1, .font-one h1,.our-clients h1{/*大标题*/
+        font-size: 2.5rem;
+    }
+    .home-slider{
+        height: 200px;
+    }
+    .navbar-header .logo{
+        width: 90px;
+    }
+    .img-slider .ip_img {
+        width: 50%;
+        top: 47%;
+    }
+    .home-slider #tagbox a{
+        font-size: 16px !important;
+        padding: 0 6px;
+    }
+    .font-one{
+        left: 0;
+    }
+    h1,.property h1, .bounceInLeft h1{
+        font-size: 2.5rem;
+    }
+    .property .circle {/*产品服务*/
+        height: 300px;
+    }
+    .property .circle h3 {
+        font-size: 20px;
+    }
+    .property .center .prods h2 {
+        padding: 0;
+        margin-bottom: 5%;
+    }
+    .property .center .prods p {
+        padding: 0;
+    }
+    /*产品服务——硬件*/
+    .property .center .prods img.small,.property .center .prods img.small2, .property .center .prods img.small3, .property .center .prods img.small4, .property .center .prods img.small5 {
+        display: none;
+    }
+    .tab_container .tab_content .tabcontent .font h2 {/*产品服务——软件——字体*/
+        font-size: 13px;
+    }
+}
+/*兼容 iphone5 */
+@media screen and (max-width:320px){
+    .home-slider{
+        height: 170px;
+    }
+    .navbar-header .logo{
+        width: 90px;
+    }
+    .font-one{
+        left: 0;
+        width: 100%;
+    }
+    .property .icon i {
+        padding: 0 10%;
+    }
+    .property .icon i span{
+        left: 7%;
+    }
+    .property .circle {/*产品服务*/
+        height: 250px;
+    }
+    .property .circle h3 {
+        font-size: 14px;
+    }
+    .property .center p {
+        font-size: 12px;
+    }
+    .property .center .prods h2 {
+        font-size: 1.7rem;
+    }
+    .property .center .prods p {
+        line-height: 15px;
+    }
+    .phone span {/*技术支持*/
+        display: block;
+    }
+    .property .center h2 {
+        font-size: 1.5rem;
+    }
+    .tab_container .tab_content .tabcontent .font h2 {/*产品服务——软件——字体*/
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .tab_container .tab_content .tabcontent .font p{
+        line-height: 13px;
+    }
+    .tab_container .tab_content .tabcontent .font{
+        padding: 0 2%;
+    }
+    .address p,.page-footer-list li,.copyright p{/*footer——避免换行*/
+        font-size: 12px;
+    }
+    .support .top{/*技术支持*/
+        width: 81%;
+        margin-top: 0;
+    }
+    .property .center .prods ul li {
+        font-size: 1.55rem;
+    }
+}
+/*兼容 Galaxy S5 */
+@media screen and (max-width:360px){
+    .home-slider{
+        height: 200px;
+    }
+    .img-slider .ip_img{
+        top: 49%;
+    }
+    .roundabout-moveable-item {
+        transform: scale(0.4) !important;
+    }
+    .tab_container .tab_content .tabcontent .font h2 {/*产品服务——软件——字体*/
+        font-size: 13px;
+    }
+    .support .top{/*技术支持*/
+        width: 84%;
+    }
+}
+/*兼容 iphone4  */
+@media screen and (max-width:320px){
+    .home-slider{
+        height: 170px !important;
+    }
+    .img-slider .ip_img{
+        top: 47% !important;
+    }
+    .roundabout-moveable-item {
+        transform: scale(0.4) !important;
+    }
+    .roundabout-holder {
+        width: 200px !important;
+    }
+    .solution h2 {
+        font-size: 2rem;
+    }
+    .solution p{
+        font-size: 1rem;
+    }
+}
+/*兼容 Responsive */
+@media screen and (max-width:400px){
+    .home-slider{
+        height: 200px;
+    }
+    .img-slider .ip_img{
+        top: 44%;
+    }
+}
+
+
+/* 兼容Safari  */
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+    ::i-block-chrome, .view a.info {
+        top: 6%;
+    }
+    ::i-block-chrome, .font-one {
+        -webkit-margin: 4% 0 0 0;
+    }
+    ::i-block-chrome,.property .center .prodsimg img{
+        height: auto;
+    }
+    ::i-block-chrome,.property .center .prods img.small {/*产品服务——硬件产品*/
+        width: 250px;
+        height: 100px;
+        -webkit-transform: rotate(12deg);
+    }
+    ::i-block-chrome,.property .center .prods img.small3, .property .center .prods img.small5 {
+        margin-top: 10%;
+        width: 250px;
+        height: 100px;
+    }
+    ::i-block-chrome,.property .center .prodsimg img {/*产品服务——硬件产品*/
+        width: 100%;
+        position: relative;
+        -webkit-transform: scale(1);
+        cursor: pointer;
+    }
+     ::i-block-chrome,.property .center .prods img.small2, .property .center .prods img.small4 {/*产品服务——硬件产品*/
+        -webkit-margin: 10% 0 0 5%;
+    }
+    ::i-block-chrome,.tab_container .tab_content .tabcontent .font {/*产品服务——软件产品*/
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        width: 40%;
+        padding: 0 5%;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:1280px) {
+        ::i-block-chrome, .font-one {/*safari 服务区域*/
+            -webkit-margin-top: 2%;
+        }
+        ::i-block-chrome,.roundabout-moveable-item{/*首页——轮播图片*/
+            -webkit-transform: scale(0.9);
+        }
+        ::i-block-chrome,.roundabout-holder{
+            width: 400px;
+        }
+        ::i-block-chrome,.property .icon i span{/*首页——企业优势图标*/
+            left: 32%;
+        }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:1200px) {
+        ::i-block-chrome, .view a.info {/*safari 产品服务——悬浮图标*/
+            top: 5%;
+        }
+        ::i-block-chrome,.roundabout-moveable-item{/*首页——轮播图片*/
+            -webkit-transform: scale(0.8);
+        }
+        ::i-block-chrome,.property .center .prods {/*产品服务——硬件产品*/
+            padding: 2%;
+        }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:980px) {
+        ::i-block-chrome, .font-one {/*safari 服务区域*/
+            margin-top: 1%;
+        }
+        ::i-block-chrome,.roundabout-moveable-item{/*首页——轮播图片*/
+            -webkit-transform: scale(0.7);
+        }
+        ::i-block-chrome,.roundabout-holder{
+            width: 350px;
+        }
+        ::i-block-chrome,.property .icon i span{/*首页——企业优势图标*/
+            left: 25%;
+        }
+        ::i-block-chrome, .tab_container .tab_content .tabcontent .codeimg {/*软件产品——二维码*/
+            width: 35% !important;
+        }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:810px) {
+        ::i-block-chrome,.roundabout-moveable-item{/*首页——轮播图片*/
+            -webkit-transform: scale(0.5) !important;
+        }
+        ::i-block-chrome,.roundabout-holder{
+            width: 300px !important;
+        }
+        ::i-block-chrome, .tab_container .tab_content .tabcontent .codeimg {/*软件产品——二维码*/
+            width: 38% !important;
+        }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:1024px) {/*safari 兼容 ipad pro*/
+        ::i-block-chrome,.property .center .prods ul {/*产品服务——硬件产品*/
+            margin: 0 4% 0 5%;
+        }
+        ::i-block-chrome, .tab_container .tab_content .tabcontent .codeimg {/*软件产品——二维码*/
+            width: 31%;
+        }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:768px) {/*safari 兼容 ipad || ipad mini*/
+       ::i-block-chrome, .font-one {/*safari 服务区域*/
+            -webkit-margin-bottom: 5%;
+        }
+        ::i-block-chrome, #LoopDiv {/*safari 服务区域*/
+            height: 700px;
+        }
+        ::i-block-chrome, .view a.info {/*safari 产品服务——悬浮图标*/
+            top: 5%;
+        }
+       ::i-block-chrome,.roundabout-moveable-item{/*首页——轮播图片*/
+            -webkit-transform: scale(0.5) !important;
+        }
+        ::i-block-chrome,.property .icon i span{/*首页——企业优势图标*/
+            left: 30%;
+        }
+        ::i-block-chrome,.page-footer {/*脚标*/
+            padding: 0;
+        }
+        ::i-block-chrome,.property .center p {/*解决方案——字体*/
+            font-size: 16px;
+            line-height: 30px;
+        }
+        ::i-block-chrome,.solution {/*解决方案——图片组*/
+            width: 80%;
+            height: 100%;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+        }
+        ::i-block-chrome,.property .center .prods img.small {/*产品服务——硬件产品*/
+            -webkit-transform: rotate(12deg) scale(0.6);
+        }
+       ::i-block-chrome, .property .center .prods img {
+            -webkit-transform: scale(0.5);
+        }
+        ::i-block-chrome,.property .center .prods h2 {
+            font-size: 2rem;
+        }
+       ::i-block-chrome, .property .center .prods ul li {
+            line-height: 22px;
+            font-size: 1.5rem;
+        }
+        ::i-block-chrome,.tabs li {/*产品服务——软件产品*/
+            font-size: 1.3rem;
+        }
+         ::i-block-chrome,.support .top {/*技术支持*/
+            padding: 0;
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+        }
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:500px) {/*safari 兼容 */
+        ::i-block-chrome, .view a.info {/*safari 产品服务——悬浮图标*/
+            top: 9%;
+        }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:414px) {/*safari 兼容 iphone6 plus || Nexus6p || Nexus5X*/
+        ::i-block-chrome, .font-one {/*safari 服务区域*/
+            top: -15%;
+        }
+        ::i-block-chrome, .view a.info {/*safari 产品服务——悬浮图标*/
+            top: 8%;
+        }
+        ::i-block-chrome,.roundabout-holder{
+            width: 250px !important;
+        }
+        ::i-block-chrome,.property .icon i span{/*首页——企业优势图标*/
+            left: 25%;
+        }
+        ::i-block-chrome, #LoopDiv {/*safari 服务区域*/
+            height: 600px;
+        }
+        ::i-block-chrome,.property .center h2 {/*关于我们——字体*/
+            font-size: 2rem;
+        }
+        ::i-block-chrome,.property .center p {/*解决方案——字体*/
+            font-size: 14px;
+            line-height: 20px;
+        }
+       ::i-block-chrome, .tab_container .tab_content .tabcontent .font h2 {/*产品服务——软件产品*/
+            font-size: 15px;
+        }
+       ::i-block-chrome,  .tab_container .tab_content .tabcontent .font p {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        ::i-block-chrome,.tab_container .tab_content .tabcontent .font {
+            width: 50%;
+        }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:375px) {/*safari 兼容 iphone6*/
+        ::i-block-chrome, .view a.info {/*safari 产品服务——悬浮图标*/
+            top: 6%;
+        }
+        ::i-block-chrome,.roundabout-moveable-item {/*首页——轮播图片*/
+            -webkit-transform: scale(0.4) !important;
+        }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width:320px) {/*safari 兼容 iphone5*/
+        ::i-block-chrome, .font-one {/*safari 服务区域*/
+            left: 0;
+        }
+        ::i-block-chrome,.roundabout-moveable-item {/*首页——轮播图片*/
+            -webkit-transform: scale(0.4) !important;
+        }
+        ::i-block-chrome,.property .icon i span{/*首页——企业优势图标*/
+            left: 20%;
+        }
+        ::i-block-chrome,.property .center h2 {/*关于我们——字体*/
+            font-size: 1.5rem;
+        }
+        ::i-block-chrome,.property .center p {/*解决方案——字体*/
+            font-size: 12px;
+        }
+        ::i-block-chrome,.tab_container .tab_content .tabcontent .font {/*产品服务——软件产品*/
+            padding: 0 2%;
+        }
+        ::i-block-chrome,.tab_container .tab_content .tabcontent .font h2 {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        ::i-block-chrome,.tab_container .tab_content .tabcontent .font p {
+            line-height: 13px;
+        }
+}

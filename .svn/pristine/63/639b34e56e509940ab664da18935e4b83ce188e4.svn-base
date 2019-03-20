@@ -1,0 +1,606 @@
+<!-- 入口 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"><!--针对手机端 -->
+    <meta name="HandheldFriendly" content="true"> <!--针对不支持viewport的旧手机 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--使得网页用webkit内核渲染 -->
+    <meta name="author" content="pl">
+    <meta name="keywords" content="Bootstrap 3, Template, Theme, Responsive, Corporate, Business">
+    <link rel="icon" href="./components/img/wwlogo.png" type="image/x-icon" />
+    <title>
+      四川万网鑫成信息科技有限公司
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./components/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./components/css/theme.css" rel="stylesheet">
+    <link href="./components/css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="./components/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="./components/assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./components/css/animate.css">
+    <link rel="stylesheet" href="./components/assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./components/assets/owlcarousel/owl.theme.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="./components/css/component.css">
+    <link href="./components/css/style.css" rel="stylesheet">
+    <link href="./components/css/style-responsive.css" rel="stylesheet" />
+
+    <!-- 字体图标 -->
+    <link rel="stylesheet" type="text/css" href="./components/css/iconfont.css">
+  </head>
+
+  <body>
+      <!-- 吉祥物 -->
+      <a href="javascript:;">
+        <img src="components/img/mascots/mascot1.gif" alt="万网吉祥物" class="mascot">
+      </a>
+      
+
+      <!--header start-->
+      <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+          <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="components/img/ww.png" class="logo"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="">首页
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./components/aboutus.html">关于我们
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./components/solution.html">解决方案
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">产品服务 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="./components/hardware-products.html">硬件产品</a>
+                          </li>
+                          <li>
+                              <a href="./components/software-products.html">软件产品</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./components/technical-support.html">技术支持
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle"  href="javascript:;">在线查车
+                      </a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <!--header end-->
+
+    <!-- Sequence Modern Slider -->
+    <div id="da-slider" class="home-slider">
+            <img src="components/img/home-assets/bei.png" class="bei" style="width:100%;">
+            <div class="img-slider"><!-- 图片组 -->
+                <img src="components/img/home-assets/iP_img.png" class="ip_img">
+            </div>
+            
+          
+          <!-- 标签云 -->
+          <!-- <div style="position: relative;top: 67%;"> -->
+            <div id="tagbox">
+                <a class="blue">车联网</a> 
+                <a >先进IT技术</a> 
+                <a class="blue">CLOUD SERVICE</a> 
+                <a >大数据</a> 
+                <a >硬件 + 软件</a> 
+                <a class="blue">服务 + 科技</a> 
+                <a class="blue">汽车金融生态</a> 
+                <a >阿里云</a>
+                <a >云服务</a> 
+                <a class="blue">云计算</a> 
+                <a >车辆管理平台</a> 
+                <a class="blue">综合车商解决方案</a> 
+                <a class="blue">微信小程序</a> 
+                <a class="blue">BI分析</a>
+            </div>
+    </div>
+    <!-- </div> -->
+
+
+    <div class="container">
+      <div class="row mar-b-50">
+        <div class="col-md-12">
+            <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+              <div class="feature-box-heading">
+                <em>
+                <i class="iconfont icon-dingwei"></i>
+                </em>
+                <h4>
+                  <b>车辆定位</b>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+              <div class="feature-box-heading">
+                <em>
+                  <i class="iconfont icon-baoxiandingdan"></i>
+                </em>
+                <h4>
+                  <b>保险服务</b>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 text-center wow fadeInUp">
+              <div class="feature-box-heading">
+                <em>
+                  <i class="iconfont icon-jishu"></i>
+                </em>
+                <h4>
+                  <b>软件技术</b>
+                </h4>
+              </div>
+            </div>
+          <!--feature end-->
+        </div>
+      </div>
+    </div>
+
+
+    <!--服务区域部分-->
+    <div id="LoopDiv">
+        <div id="gla_box" class="col-lg-7 col-sm-7 text-center wow bounceIn">
+            <ul>
+                <li>
+                    <div class="gla_inbox">
+                          <img src="components/img/home-assets/map.png" />
+                          <a href="javascript:void(0);">
+                            <span>综合车商 <i> 365家</i></span>
+                            <span>覆盖车主 <i> 76253位</i></span>
+                          </a>
+                      </div>
+                  </li>
+                <li>
+                    <div class="gla_inbox">
+                          <img src="components/img/home-assets/map2.png" />
+                          <a href="javascript:void(0);">
+                            <span>已安装设备 <i> 217796台</i></span>
+                            <span>平台接入车辆 <i> 75781辆</i></span>
+                          </a>
+                      </div>
+                  </li>
+                <li>
+                    <div class="gla_inbox">
+                          <img src="components/img/home-assets/map3.png" />
+                          <a href="javascript:void(0);">
+                            <span>合作伙伴 <i> 180家</i></span>
+                            <span>有效用户 <i> 12万+</i></span>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+
+      <!-- 文字部分 -->
+      <div class="font-one col-md-5 col-sm-5 wow bounceIn">
+        <h1>服务区域</h1>
+        <i>Service area</i>
+        <p>万网鑫成服务区域现已覆盖全国各地，分别在四川、山西、陕西、贵州、云南、广东、广西、海南等地均有独立办事处。</p>
+        <button type="button">了解更多</button>
+      </div>
+    </div>
+    <!--效果html结束-->
+
+
+
+    <!--企业优势-->
+    <div class="property gray-bg">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-6 col-sm-6 wow fadeInLeft">
+            <h1>
+              企业优势
+            </h1>
+            <i>Enterprise advantage</i>
+            <hr>
+            <p><i class="fa fa-check fa-lg pr-10"></i>致力于汽车资产安全管理，构建人、车、生活生态圈。 </p>
+            <p><i class="fa fa-check fa-lg pr-10"></i>万网公司主要从事车辆及人员定位系统与汽车导航的OEM及运营，公司拥有一批以电子开发与应用和汽车维修专业毕业为主导的技术人才，具有丰富的车辆监控系统、导航系统开发及地理信息系统制作平台等开发经验，目前与北京世纪百速有限公司合作开发了车辆定位+人员定位监控应用软件，大大提高了软件应用的稳定性和经济性，通过该合作我公司全面实现了信息化软件共享管理，更有效提高工作效率和业务处理能力（CRM），并且在此基础上提出了自己的城市智能化交通解决方案。
+            <p><i class="fa fa-check fa-lg pr-10"></i>公司为员工提供丰厚的高薪收入和福利，保证人才的稳定，公司具有完善的人才储备机制，保障工作岗位的不间断不漏席，并长年与汽车维修专业学校保持人才输送和培训。 </p>
+            <hr>
+            <div class="icon">
+              <i class="iconfont icon-tuandui"><span>专业研发团队</span></i>
+              <i class="iconfont icon-haoping"><span>丰富行业经验</span></i>
+              <i class="iconfont icon-fuwu2"><span> 24小时服务</span></i>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 text-center wow fadeInRight">
+            <img src="components/img/home-assets/qi_img.png" alt="企业优势" class="adImg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--property end-->
+
+  
+
+
+   <!--产品服务-->
+    <div class="bg-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 recent">
+            <h1 class="recent-work">
+              产品服务
+            </h1>
+            <p>丰富多元化解决方案</p>
+            <div id="owl-demo" class="owl-carousel owl-theme wow fadeIn">
+
+              <div class="item view view-tenth">
+                <img src="./components/img/home-assets/fuwu.png" alt="产品服务">
+                <div class="mask">
+                  <a href="./components/hardware-products.html" class="info" data-toggle="tooltip" data-placement="top" title="硬件产品">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="./components/img/home-assets/fuwu0.png" alt="产品服务">
+                <div class="mask">
+                  <a href="./components/hardware-products.html" class="info" data-toggle="tooltip" data-placement="top" title="硬件产品">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="./components/img/home-assets/fuwu1.png" alt="产品服务">
+                <div class="mask">
+                  <a href="./components/software-products.html" class="info" data-toggle="tooltip" data-placement="top" title="万网优车企业版">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="./components/img/home-assets/fuwu2.png" alt="产品服务">
+                <div class="mask">
+                  <a href="./components/software-products.html" class="info" data-toggle="tooltip" data-placement="top" title="万网优车PC版">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="./components/img/home-assets/fuwu3.png" alt="产品服务">
+                <div class="mask">
+                  <a href="./components/software-products.html" class="info" data-toggle="tooltip" data-placement="top" title="万网优车小程序">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="./components/img/home-assets/fuwu4.png" alt="产品服务">
+                <div class="mask">
+                  <a href="./components/software-products.html" class="info" data-toggle="tooltip" data-placement="top" title="E车宝">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="./components/img/home-assets/fuwu5.png" alt="产品服务">
+                <div class="mask">
+                  <a href="./components/software-products.html" class="info" data-toggle="tooltip" data-placement="top" title="VAS车联网">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="./components/img/home-assets/fuwu6.png" alt="产品服务">
+                <div class="mask">
+                  <a href="./components/software-products.html" class="info" data-toggle="tooltip" data-placement="top" title="GIS平台">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--recent work end-->
+    </div>
+    <div class="hr">
+      <span class="hr-inner"></span>
+    </div>
+
+    <!-- 合作伙伴 -->
+    <div class="bgimg">
+      <div class="container">
+        <div class="row mar-b-50 our-clients">
+          <!-- col-md-3 -->
+          <div class="partner">
+            <h1>
+              合作伙伴
+            </h1>
+            <p>
+              高质量的合作伙伴，让客户更放心
+            </p>
+             <div class="outside">
+              <p>
+                <span id="slider-prev">
+                </span>
+                |
+                <span id="slider-next">
+                </span>
+              </p>
+            </div>
+          </div>
+           
+
+            <ul class="bxslider1 clients-list">
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_1.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_2.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_3.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_4.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_5.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_6.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_7.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_8.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_9.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_10.png" alt="" />
+                </a>
+              </li>
+            </ul>
+            <ul class="bxslider2 clients-list">
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_6.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_7.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_8.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_9.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./components/img/home-assets/logo_10.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END CLIENTS -->
+
+    <!--footer start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+            <h1>
+              联系我们
+            </h1>
+            <address>
+              <p><i class="fa fa-home pr-10 fa-fw"></i>地址：成都高新区天府四街航兴国际2栋18楼</p>
+              <p><i class="fa fa-mobile pr-10 fa-fw"></i>联系方式 : 028-85315109 </p>
+              <p><i class="fa fa-phone pr-10 fa-fw"></i>客服 : 13882031918  24小时服务</p>
+              <p><i class="fa fa-envelope pr-10 fa-fw"></i>邮箱 :WWW.GPS@sina.cn</p>
+            </address>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+              <h1>
+                更多
+              </h1>
+              <ul class="page-footer-list">
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./components/aboutus.html">关于我们</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./components/solution.html">解决方案</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./components/hardware-products.html">产品服务</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./components/technical-support.html">技术支持</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="javascript:;">在线查车</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
+              <h1>
+                关注微信号
+              </h1>
+              <p>
+                <img src="components/img/home-assets/erweima.png">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="copyright"> <p>&copy;Copyright - <a href="javascript:;" target="_blank" title="">四川万网鑫成信息科技有限公司</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--small footer end-->
+
+
+    <!-- 引用JS -->
+    <script src="./components/js/jquery-1.8.3.min.js"></script>
+    <script src="./components/js/bootstrap.min.js"></script>
+    <!-- 动画 -->
+    <script src="./components/js/wow.min.js"></script>
+    <!-- 产品服务——前进后退 -->
+    <script src="./components/assets/owlcarousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="./components/assets/bxslider/jquery.bxslider.js"></script>
+    <!-- 文字旋转 -->
+    <script type="text/javascript" src="./components/js/script.js"></script>
+     <!-- 小轮播 -->
+    <script type="text/javascript" src="components/js/corner.js"></script>
+    <script type="text/javascript" src="components/js/jquery.corner.js"></script>
+    <script type="text/javascript" src="components/js/jquery.roundabout.js"></script>
+    <script type="text/javascript" src="components/js/jquery.roundabout-shapes.js"></script>
+    <!--公用-->
+    <script src="./components/js/common-scripts.js"> </script>
+
+
+    <script type="text/javascript" >
+      // 吉祥物
+      $(".mascot").hover(
+        function() {  
+            $( this ).attr('src','./components/img/mascots/mascot2.gif');
+        }, function() {  
+            $( this ).attr('src','./components/img/mascots/mascot4.gif');
+        }  
+      );
+      $(".mascot").click(
+        function() {
+          $( this ).attr('src','./components/img/mascots/mascot3.gif');
+        }
+      );
+    </script>
+   
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        $('.bxslider1').bxSlider({
+          minSlides: 5,
+          maxSlides: 10,
+          slideWidth: 360,
+          slideMargin: 2,
+          moveSlides: 5,
+          responsive: true,
+          nextSelector: '#slider-next',
+          prevSelector: '#slider-prev',
+          nextText: '后退 →',
+          prevText: '← 前进'
+        });
+
+      });
+    </script>
+
+
+
+    <!-- 合作伙伴 -->
+    <script type="text/javascript">
+        $(window).on("load resize",function(){
+            var w=window.innerWidth||document.body.clientWidth||document.documentElement.clientWidth;
+            if (w > 1200) {//大于1200时 合作伙伴图标控制大小
+              $(".bx-wrapper img").addClass('width');
+              $(".bx-viewport").css('height','176px');
+            }
+        });
+    </script>
+
+
+    <script>
+      $('a.info').tooltip();
+
+      $(document).ready(function() {
+
+        $("#owl-demo").owlCarousel({
+
+          items : 4
+
+        });
+
+      });
+
+
+      new WOW().init();
+
+
+    </script>
+
+
+  </body>
+</html>

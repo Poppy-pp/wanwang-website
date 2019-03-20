@@ -1,0 +1,14 @@
+$.ajax({  
+    //接口地址  
+    url:'http://hhbmst.ddns.net:8080/vasms-web/api/v1/bi/biInsurance',  
+    //请求方式  
+    type:'get',  
+    //返回数据类型  
+    dataType:'jsonp',
+    //请求失败时处理方式  
+    error:function(){},  
+    //请求成功时处理方式  
+    success:function(result){  
+        console.log(result)
+    },  
+}); 

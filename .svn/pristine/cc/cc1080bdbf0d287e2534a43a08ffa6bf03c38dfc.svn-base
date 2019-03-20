@@ -1,0 +1,452 @@
+<!-- 入口 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"><!--针对手机端 -->
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge"><!--使得网页用webkit内核渲染 -->
+    <meta name="author" content="pl">
+    <meta name="keywords" content="Bootstrap 3, Template, Theme, Responsive, Corporate, Business">
+    <link rel="icon" href="./img/wwlogo.png" type="image/x-icon" />
+    <title>
+      四川万网鑫成信息科技有限公司
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--external css-->
+    <link href="./assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="./assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.css">
+
+    <!-- 字体图标 -->
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="./css/component.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+
+    
+  </head>
+
+  <body>
+      <!-- 吉祥物 -->
+      <a href="javascript:;">
+        <img src="./img/mascots/mascot1.gif" alt="万网吉祥物" class="mascot">
+      </a>
+      <!--header start-->
+      <header class="head-section">
+        <div class="navbar navbar-default navbar-static-top container">
+          <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="javascript:;"><img src="img/ww.png" class="logo"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="../index.html">首页
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./aboutus.html">关于我们
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./solution.html">解决方案
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">产品服务 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="./hardware-products.html">硬件产品</a>
+                          </li>
+                          <li>
+                              <a href="./software-products.html">软件产品</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" href="./technical-support.html">技术支持
+                      </a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                      "dropdown" data-toggle="dropdown" href="#">系统登录 <i class="fa fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="http://test.wwvas.com/module/Home.html#/formProcess" target="_blank">自主报单</a>
+                          </li>
+                          <li>
+                              <a href="http://gis.wwvas.com/module/login.html" target="_blank">在线查车</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <!--header end-->
+
+    <!-- Sequence Modern Slider -->
+    <div id="da-slider" class="home-slider other">
+            <img src="img/hardware-assets/banner.png" class="bei" style="width:100%;height: 100%;">
+    </div>
+
+
+    <!-- 统计数字 -->
+    <div class="feature-box">
+      <div class="details">
+            <div class="col-md-3 col-sm-3 text-center wow fadeInUp"></div>
+            <div class="col-md-3 col-sm-3 text-center wow fadeInUp">
+               <div class="count1">217796</div>
+                <h4>
+                  <b>已安装设备</b>
+                </h4>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center wow fadeInUp">
+                <div class="count2">75781</div>
+                <h4>
+                  <b>平台接入车辆</b>
+                </h4>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center wow fadeInUp"></div>
+      </div>
+    </div>
+
+
+    <!--硬件产品-->
+    <div class="property white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 wow fadeInLeft center">
+            <h1>
+              硬件产品
+            </h1>
+            <i>Hardware Products</i>
+          </div>
+        </div>
+
+         <!--产品一-->
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 center border">
+            <div class="col-md-6 col-sm-6 wow fadeInLeft prods">
+              <img src="img/hardware-assets/1.png" class="small">
+              <h2>GPS车载定位终端</h2>
+              <ul>
+                <li>实时定位</li>
+                <li>低电报警</li>
+                <li>ACC检测</li>
+                <li>位置查询</li>
+                <li>震动报警</li>
+                <li>断电报警</li>
+            </ul>
+            <ul>
+                <li>轨迹回放</li>
+                <li>位移报警</li>
+                <li>电子围栏</li>
+                <li>空中升级</li>
+                <li>远程控制油电</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeInRight prodsimg">
+              <img src="img/hardware-assets/1_big.png" id="smallchange1">
+            </div>
+          </div>
+        </div>
+
+        <!--产品二-->
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 center border">
+            <div class="col-md-6 col-sm-6 wow fadeInLeft prodsimg">
+              <img src="img/hardware-assets/2_big.png" id="smallchange2">
+            </div>
+             <div class="col-md-6 col-sm-6 wow fadeInRight prods">
+              <img src="img/hardware-assets/9.png" class="small2">
+              <h2>超久潜伏资产保全终端V9S</h2>
+              <ul>
+                <li>定时回传</li>
+                <li>定点上传</li>
+                <li>电量展示</li>
+                <li>SMS预警</li>
+                <li>及时唤醒</li>
+                <li>智能省电</li>
+            </ul>
+            <ul>
+                <li>抗屏蔽干扰</li>
+                <li>免接线安装</li>
+                <li>预订实时监控</li>
+                <li>脱落报警(光源)</li>
+                <li>基站+GPS定位模式</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--产品三-->
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 center border">
+            <div class="col-md-6 col-sm-6 wow fadeInLeft prods">
+              <img src="img/hardware-assets/3.png" class="small3">
+              <h2>卫星定位汽车行驶记录仪</h2>
+              <ul>
+                <li>自检功能</li>
+                <li>行驶记录</li>
+                <li>紧急报警</li>
+                <li>区域报警</li>
+                <li>断电报警</li>
+                <li>数据通讯功能</li>
+            </ul>
+            <ul>
+                <li>断电保护</li>
+                <li>注册和注销</li>
+                <li>线路偏离报警</li>
+                <li>电瓶欠压报警</li>
+                <li>终端故障报警</li>
+                <li>显示和打印功能</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeInRight prodsimg">
+              <img src="img/hardware-assets/3_big.png" id="smallchange3">
+            </div>
+          </div>
+        </div>
+
+         <!--产品四-->
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 center border">
+            <div class="col-md-6 col-sm-6 wow fadeInLeft prodsimg">
+              <img src="img/hardware-assets/5_big.png" id="smallchange4">
+            </div>
+             <div class="col-md-6 col-sm-6 wow fadeInRight prods">
+              <img src="img/hardware-assets/5.png" class="small4">
+              <h2>对讲机 LXT — PC</h2>
+              <ul>
+                <li>单呼/群呼</li>
+                <li>状态语音提示</li>
+                <li>天禾协议 Jt8 - 8协议</li>
+                <li>大音量、高保真音质</li>
+                <li>3G/2G网络</li>
+                <li>支持16个分组自由切换</li>
+            </ul>
+            <ul>
+                <li>技术领先于传统对讲机</li>
+                <li>专业级位置监控</li>
+                <li>十年行业经验</li>
+                <li>基于CDMA技术</li>
+                <li>通话安全保密性强</li>
+                <li>专业公司集群对讲系统</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--产品五-->
+        <!-- <div class="row">
+          <div class="col-lg-12 col-sm-12 center border">
+            <div class="col-md-6 col-sm-6 wow fadeInLeft prods">
+              <img src="img/hardware-assets/7.png" class="small5">
+              <h2>车载定位终端 W200</h2>
+              <ul>
+                <li>电子围栏</li>
+                <li>设防/撤防</li>
+                <li>防盗报警</li>
+                <li>SOS报警</li>
+                <li>低电量提醒</li>
+                <li>SOS号码设置</li>
+            </ul>
+            <ul>
+                <li>监听</li>
+                <li>重启终端</li>
+                <li>恢复出厂设置</li>
+                <li>终端位置查询</li>
+                <li>远程控制油电</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeInRight prodsimg">
+              <img src="img/hardware-assets/7_big.png" id="smallchange5">
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+    </div>
+  </div>
+  <!--硬件产品 end-->
+
+
+
+
+
+
+
+    <!--footer start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+            <h1>
+              联系我们
+            </h1>
+            <address>
+              <p><img src="img/people.png" alt="">客服热线 : 028-85315020 </p>
+              <p><img src="img/email.png" alt="">邮箱 : wanwang@cnzhjk.com</p>
+              <p><img src="img/address.png" alt="">地址 : 成都市高新区天府四街航兴国际广场2号楼18F</p>
+            </address>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+              <h1>
+                更多
+              </h1>
+              <ul class="page-footer-list">
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./aboutus.html">关于我们</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./solution.html">解决方案</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./hardware-products.html">产品服务</a>
+                </li>
+                <li>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="./technical-support.html">技术支持</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
+              <p>
+                <img src="img/home-assets/erweima.png">
+              </p>
+              <p class="smallfont">关注“万网鑫成科技”<br>微信公众号</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="copyright"> <p>Copyright © 2017 四川万网鑫成信息科技有限公司 All Rights Reserved 蜀ICP备17035138号</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--small footer end-->
+
+    <!-- 引用JS -->
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- 动画 -->
+    <script src="./js/wow.min.js"></script>
+    <!-- 吉祥物 -->
+    <script src="./js/mascot.js"> </script>
+    <!--公用-->
+    <script src="./js/common-scripts.js"> </script>
+
+
+    <script>
+      $('a.info').tooltip();
+
+      new WOW().init();
+
+    </script>
+
+    <!-- 滚动数字 -->
+    <script src="./js/count.js" ></script>
+    <script type="text/javascript">
+      $(function(){
+        var today = new Date().getTime();//获取当前时间
+        var space = today - 1513699200000;//获取时间间隔 以2017-12-20-00为起始时间
+        var minute = Math.floor(space/1000/60);//将间隔 转换为分钟数-除以毫秒/除以秒
+        
+        var addCount1 = Math.floor(minute/4);//获取数字一 累加的数字
+        var addCount2 = Math.floor(minute/12);//获取数字二 累加的数字
+
+        $(".count1").text(parseInt($(".count1").text()) + parseInt(addCount1));
+        $(".count2").text(parseInt($(".count2").text()) + parseInt(addCount2));
+
+        numPlus($(".count1"),240000);//数字一每4分钟增加
+        numPlus($(".count2"),720000);  //数字一每12分钟增加
+
+        // 滚动效果
+        $(".count1").numberRock({
+          speed:10,
+          count:$(".count1").text()
+        });
+        $(".count2").numberRock({
+          speed:10,
+          count:$(".count2").text()
+        })
+      });
+
+      // 增加定时器
+      var numPlus = function(obj,time){
+          setInterval(function(){
+              if($(obj).html()==0){
+                  return;
+              }
+              $(obj).html(parseInt($(obj).html())+1)
+          },time)
+      }
+
+      
+    </script>
+
+    <!-- 页面宽度置换图片 -->
+    <script type="text/javascript">//iphone6plus——图片均置换为完整图片
+          if( document.documentElement.clientWidth < 415 ) {//小于
+              $("#smallchange1").attr('src','img/hardware-assets/1.png');
+              $("#smallchange2").attr('src','img/hardware-assets/2.png');
+              $("#smallchange3").attr('src','img/hardware-assets/3.png');
+              $("#smallchange4").attr('src','img/hardware-assets/4.png');
+              $("#smallchange5").attr('src','img/hardware-assets/6.png');
+          }else if (document.documentElement.clientWidth > 414) {//大于
+              $("#smallchange1").attr('src','img/hardware-assets/1_big.png');
+              $("#smallchange2").attr('src','img/hardware-assets/2_big.png');
+              $("#smallchange3").attr('src','img/hardware-assets/3_big.png');
+              $("#smallchange4").attr('src','img/hardware-assets/5_big.png');
+              $("#smallchange5").attr('src','img/hardware-assets/7_big.png');
+          }
+    </script>
+
+    <!-- 判断ie浏览器 -->
+    <script type="text/javascript">
+      if(!!window.ActiveXObject || "ActiveXObject" in window){//true为IE
+        alert("IE浏览器正在维护中，建议使用谷歌浏览器");
+
+        //关闭ie6/ie7的关闭窗口确认提示框
+        window.opener=null;
+        window.open("","_self");
+
+        // 关闭ie浏览器
+        window.close();
+      };
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.navbar-default {background-color: #fff;}
+.head-section .nav li .dropdown-menu li a{background-color: #fff;}
+.head-section .nav li .dropdown-menu li a:hover{background-color: #fff;color: #16A8F7;}
+.gla_inbox {border:#C8C8C8 1px solid;filter:progid:DXImageTransform.Microsoft.Shadow(color=#C8C8C8,direction=150,strength=5);/*兼容ie*/}
+.font-one {width: 22% !important;}
+.font-one p {font-size: 20px;}
+.gla_inbox a span i{font-size: 20px;}
+.bx-wrapper{padding: 0 0 0 1px;}
+.bxslider2{ width: 1190px}
+.bxslider2 li {width: 236px;}
+.clients-list li:hover img {filter:alpha(opacity=80);}
+.property .center p{text-indent: 35px; }
+.solution{filter:progid:DXImageTransform.Microsoft.Shadow(color=#C8C8C8,direction=150,strength=5);}
+.solution {width: 30% !important;}
+.middle {width: 33% !important;}
+.solution:hover{filter:alpha(opacity=90);border:1px solid #ccc;}
+.solution p {margin-top: -3%;}
+.count1, .count2{font-size: 50px;}
+.property .center .prods ul li{font-size: 17px;}
+.tabs li{font-size: 20px;}
+.tab_container .tab_content .tabcontent .font{width: 38%;}
+.tab_container .tab_content .tabcontent .font p{font-size: 20px;}
+.tab_container .tab_content .tabcontent .font{top: 35%;}
+.iconfontie{width: 5%;height: 5%;margin-bottom: 2%;}
+.tab_container .tab_content .tabcontent .font p{font-size: 16px;line-height: 25px;}
+.tab_container .tab_content .tabcontent .codeimg{margin-top: 0;}
+.img-slider .ip_img{width: 1000px;height: 520px;position: absolute;left:23%;}
+
